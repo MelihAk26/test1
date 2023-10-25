@@ -1,0 +1,74 @@
+* { margin: 0; padding: 0; outline: 0;}
+
+/************************************************ Partie HEADER **********************************************************************/
+header {
+	margin : auto;
+	background-color : grey;
+	text-align : center;
+}
+header img {
+	margin : 20px;
+}
+nav {
+	background-color : #494949;
+	height : 50px;
+}
+a {
+	color : white ;
+	font-size : 20px;
+	margin : 15px;
+}
+a:hover {
+	color :  #F7E0AE ;
+}
+
+/************************************************ Partie Section **********************************************************************/
+
+h2 {
+	margin-top : 0px;
+}
+
+h3{
+	text-decoration : underline;
+}
+
+ul {
+	margin : 15px;
+}
+
+#principal {
+	display:flex;
+	justify-content:space-between;
+	padding-top : 30px;
+}
+#principal article {
+	padding:10px;
+	width:28%;
+	background:#F7E0AE;
+	border: 1px solid ; border-radius: 10px; 
+}
+
+section {
+	margin:auto;
+	height:100%;
+}
+form {
+	margin:50px;
+}
+
+form * {
+	margin: 10px;
+}
+
+
+
+/************************************************ Partie Footer**********************************************************************/
+
+footer {
+	background-color : #494949;
+	text-align : center;
+	color : white ;
+	margin-top : 25px;
+	padding : 20px;
+	
+}

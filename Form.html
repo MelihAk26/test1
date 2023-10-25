@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Melih Aksoy" />
+<title>Formulaire</title>
+<link type = "text/css" rel = "stylesheet" href = "css/style.css"> 
+</head>
+
+<body>
+    
+	<header>
+	     <img src="images/logo.png" alt="logo">
+		 <nav>
+		    <a href="index.html">Accueil</a>
+			<a href="https://validator.w3.org/" target="_blank">Validateur HTML 5</a>
+		    <a href="http://jigsaw.w3.org/css-validator/" target="_blank">Validateur CSS3</a>
+		    <a href="http://moodle.vinci.be/" target="_blank">Moodle</a>
+		    <a href="Form.html" >Laisser un commentaire</a>
+		 </nav>
+	</header>
+
+    <section>
+	     <h1>Envie de déposer un commentaire ?</h1>
+		 <p>Vous pouvez à l'aide de ce formulaire, entrez un commentaire ou une remarque sur la recette HTML</p>
+		 <form action="trt.php" method="post">
+		    <fieldset> 
+			      <legend>informations personelles :</legend>
+				  <label for="nom">Votre nom :</label>
+				  <input name="nom" id="nom" type="text" placeholder="Entrez ici votre nom"> <br>
+				  <label for="prénom">Votre prénom :</label>
+				  <input name="prénom" id="prénom" type="text" placeholder="Entrez ici votre prénom"> <br>
+				  <label for="mail">Votre email:</label>
+				  <input name="mail" id="mail" type="email" placeholder="Entrez ici votre email"> <br>
+			</fieldset>
+			<fieldset>
+			      <legend>Commentaire</legend>
+				  <textarea name = "commentaire" cols = "125" rows = "5" placeholder="Entrez ici votre commentaire "></textarea>
+		    </fieldset>
+			<input type = "submit" value = "Envoyer"  id="envoyer">
+		</form>
+	</section>
+	
+	<footer>
+	    <p>Recette créée par Choquet Olivier.</p>
+	</footer>
+	
+</body>
+</html>
